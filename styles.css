@@ -82,7 +82,7 @@ figure {
 #sh{
     position: absolute;
     left: 10%;
-    top: 100%;
+    top: 110%;
     width: 10%;
     transform: rotate(-20deg);
 }
@@ -105,8 +105,8 @@ figure {
 
 
 figure.item{
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
 }
 
 .ppic{
@@ -120,9 +120,16 @@ figure.item{
     transform: scale(110%);
     filter: blur(70%);
 } */
-#click{
-    text-decoration: none;
-    color: #284f9f;
+.next{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.back{
+    position: absolute;
+    top: 5%;
+    left: 5%;
 }
 
 button{
@@ -136,8 +143,6 @@ button{
     padding-bottom: 20px;
     margin-bottom: 10%;
 }
-
-
 
 #left{
     justify-content: flex-start;
@@ -189,6 +194,9 @@ footer{
 .tahoe{
     border-radius: 3%;
     margin: 2.5px;
+    object-fit: cover;
+    scale: 100%;
+
 }
 
 #t1{
@@ -202,14 +210,14 @@ footer{
     position: absolute;
     width: 30%;
     left: 46.5%;
-    top: 90%;
+    top: 93%;
 }
 
 #t3{
     position: absolute;
     width: 13.5%;
     left: 15%;
-    top: 140%;
+    top: 147%;
 }
 
 #t4{
@@ -223,19 +231,21 @@ footer{
     position: absolute;
     width: 30%;
     left: 46.5%;
-    top: 160%;
+    top: 170%;
 }
 
 #t6{
     position: absolute;
     width: 14.8%;
+    height: 33.8%;
     left: 30%;
-    top: 140%;
+    top: 147%;
 }
 
 #t7{
     position: absolute;
     width: 10.6%;
+    height: 20%;
     left: 55.5%;
     top: 70%;
 }
@@ -244,8 +254,9 @@ footer{
     position: absolute;
     width: 30%;
     left: 15%;
-    top: 210%;
+    top: 183%;
 }
+/* 1 */
 
 #t9{
     position: absolute;
@@ -253,47 +264,53 @@ footer{
     left: 46.5%;
     top: 230%;
 }
+/* 2 */
 
 #t10{
     position: absolute;
     width: 13.5%;
     left: 15%;
-    top: 140%;
+    top: 280%;
 }
+/* 3 */
 
 #t11{
     position: absolute;
     width: 8%;
-    left: 46.5%;
+    left: 67.2%;
     top: 70%;
 }
+/* 4 */
 
 #t12{
     position: absolute;
     width: 30%;
     left: 46.5%;
-    top: 160%;
+    top: 350%;
 }
+/* 5 */
 
 #t13{
     position: absolute;
     width: 14.8%;
     left: 30%;
-    top: 140%;
+    top: 280%;
 }
+/* 6 */
 
 #t14{
     position: absolute;
     width: 10.6%;
-    left: 55.5%;
-    top: 70%;
+    left: 70%;
+    top: 100%;
 }
+/* 7 */
 
 #t15{
     position: absolute;
     width: 30%;
     left: 15%;
-    top: 280%;
+    top: 260%;
 }
 
 #t16{
@@ -314,28 +331,28 @@ footer{
     position: absolute;
     width: 13.5%;
     left: 15%;
-    top: 140%;
+    top: 340%;
 }
 
 #t19{
     position: absolute;
     width: 8%;
     left: 46.5%;
-    top: 70%;
+    top: 400%;
 }
 
 #t20{
     position: absolute;
     width: 30%;
     left: 46.5%;
-    top: 160%;
+    top: 360%;
 }
 
 #t21{
     position: absolute;
-    width: 14.8%;
-    left: 30%;
-    top: 140%;
+    width: 12%;
+    left: 12%;
+    top: 195%;
 }
 
 #t22{
@@ -356,49 +373,49 @@ footer{
     position: absolute;
     width: 30%;
     left: 46.5%;
-    top: 90%;
+    top: 380%;
 }
 
 #t25{
     position: absolute;
     width: 13.5%;
     left: 15%;
-    top: 140%;
+    top: 640%;
 }
 
 #t26{
     position: absolute;
     width: 8%;
     left: 46.5%;
-    top: 70%;
+    top: 350%;
 }
 
 #t27{
     position: absolute;
     width: 30%;
     left: 46.5%;
-    top: 160%;
+    top: 400%;
 }
 
 #t28{
     position: absolute;
     width: 14.8%;
     left: 30%;
-    top: 140%;
+    top: 340%;
 }
 
 #t29{
     position: absolute;
     width: 10.6%;
     left: 55.5%;
-    top: 70%;
+    top: 500%;
 }
 
 #t30{
     position: absolute;
     width: 30%;
     left: 15%;
-    top: 170%;
+    top: 700%;
 }
 
 

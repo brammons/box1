@@ -1,0 +1,441 @@
+body{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    overflow-x: hidden;
+    background-color: #284f9f;
+    color: #f8b3cc;
+    font-family: spacegrotesk-light;
+    justify-content: center;
+    text-align: center;
+}
+
+@font-face {
+    font-family: spacegrotesk-regular;
+    src: url(fonts/SpaceGrotesk-1.1.3/otf/SpaceGrotesk-Regular.otf);
+}
+
+@font-face {
+    font-family: terminal-grotesque;
+    src: url(fonts/Terminal-Grotesque-master/terminal-grotesque.ttf);
+}
+
+@font-face {
+    font-family: spacegrotesk-light;
+    src: url(fonts/SpaceGrotesk-1.1.3/otf/SpaceGrotesk-Light.otf);
+}
+
+h1{
+    font-size: 240px;
+    line-height: 165px;
+    font-family: terminal-grotesque;
+    margin-bottom: 3%;
+}
+
+h2{
+    font-size: 100px;
+    font-family: spacegrotesk-regular;
+}
+
+.title{
+    font-size: 150px;
+    line-height: 100px;
+    font-family: terminal-grotesque;
+    margin-bottom: 3%;
+}
+
+.sub{
+    font-size: 80px;
+    line-height: 64px;
+    font-family: spacegrotesk-regular;
+}
+
+/* .peeps{
+   justify-content: center;
+} */
+
+/* .name{
+    font-size: 48px;
+    font-family: spacegrotesk-regular;
+} */
+
+/* .profile{
+    text-decoration: none;
+    color: #f8b3cc;
+} */
+
+figure {
+    float: left;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 3%;
+}
+/* This is everyone's pictures on meet the crew */
+
+#hk{
+    position: absolute;
+    right: 37%;
+    top: 73%;
+    width: 12%;
+}
+
+#sh{
+    position: absolute;
+    left: 10%;
+    top: 100%;
+    width: 10%;
+    transform: rotate(-20deg);
+}
+
+#ct{
+    position: absolute;
+    right: 44%;
+    top: 15.5%;
+    width: 8%;
+}
+
+#bm{
+    position: absolute;
+    object-fit: cover;
+    left: 10%;
+    top: 15%;
+    border-radius: 100%;
+    width: 10%;
+}
+
+
+figure.item{
+    width: 300px;
+    height: 300px;
+}
+
+.ppic{
+    transition: all 0.5s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .ppic:hover{
+    transform: scale(110%);
+    filter: blur(70%);
+} */
+#click{
+    text-decoration: none;
+    color: #284f9f;
+}
+
+button{
+    width: fit-content;
+    background-color: #f8b3cc;
+    border-radius: 5%;
+    font-size: 144px;
+    font-family: terminal-grotesque;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10%;
+}
+
+
+
+#left{
+    justify-content: flex-start;
+}
+
+#right{
+    justify-content: flex-end;
+}
+
+footer{
+    font-size: 16px;
+    font-family: terminal-grotesque;
+    margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 1000px){
+    body{
+        width: 1000px;
+        margin: auto;
+    }
+
+    .container{
+        padding-top: 0px;
+    }
+
+    figure.item{
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        width: 100%;
+        margin: auto;
+    }
+
+    .container{
+        padding-top: 0px;
+    }
+
+    figure.item{
+        width: 600px;
+        height: 600px;
+    }
+
+}
+
+.tahoe{
+    border-radius: 3%;
+    margin: 2.5px;
+}
+
+#t1{
+    position: absolute;
+    width: 30%;
+    left: 15%;
+    top: 70%;
+}
+
+#t2{
+    position: absolute;
+    width: 30%;
+    left: 46.5%;
+    top: 90%;
+}
+
+#t3{
+    position: absolute;
+    width: 13.5%;
+    left: 15%;
+    top: 140%;
+}
+
+#t4{
+    position: absolute;
+    width: 8%;
+    left: 46.5%;
+    top: 70%;
+}
+
+#t5{
+    position: absolute;
+    width: 30%;
+    left: 46.5%;
+    top: 160%;
+}
+
+#t6{
+    position: absolute;
+    width: 14.8%;
+    left: 30%;
+    top: 140%;
+}
+
+#t7{
+    position: absolute;
+    width: 10.6%;
+    left: 55.5%;
+    top: 70%;
+}
+
+#t8{
+    position: absolute;
+    width: 30%;
+    left: 15%;
+    top: 210%;
+}
+
+#t9{
+    position: absolute;
+    width: 30%;
+    left: 46.5%;
+    top: 230%;
+}
+
+#t10{
+    position: absolute;
+    width: 13.5%;
+    left: 15%;
+    top: 140%;
+}
+
+#t11{
+    position: absolute;
+    width: 8%;
+    left: 46.5%;
+    top: 70%;
+}
+
+#t12{
+    position: absolute;
+    width: 30%;
+    left: 46.5%;
+    top: 160%;
+}
+
+#t13{
+    position: absolute;
+    width: 14.8%;
+    left: 30%;
+    top: 140%;
+}
+
+#t14{
+    position: absolute;
+    width: 10.6%;
+    left: 55.5%;
+    top: 70%;
+}
+
+#t15{
+    position: absolute;
+    width: 30%;
+    left: 15%;
+    top: 280%;
+}
+
+#t16{
+    position: absolute;
+    width: 30%;
+    left: 46.5%;
+    top: 300%;
+}
+
+#t17{
+    position: absolute;
+    width: 13.5%;
+    left: 15%;
+    top: 420%;
+}
+
+#t18{
+    position: absolute;
+    width: 13.5%;
+    left: 15%;
+    top: 140%;
+}
+
+#t19{
+    position: absolute;
+    width: 8%;
+    left: 46.5%;
+    top: 70%;
+}
+
+#t20{
+    position: absolute;
+    width: 30%;
+    left: 46.5%;
+    top: 160%;
+}
+
+#t21{
+    position: absolute;
+    width: 14.8%;
+    left: 30%;
+    top: 140%;
+}
+
+#t22{
+    position: absolute;
+    width: 10.6%;
+    left: 55.5%;
+    top: 330%;
+}
+
+#t23{
+    position: absolute;
+    width: 30%;
+    left: 15%;
+    top: 350%;
+}
+
+#t24{
+    position: absolute;
+    width: 30%;
+    left: 46.5%;
+    top: 90%;
+}
+
+#t25{
+    position: absolute;
+    width: 13.5%;
+    left: 15%;
+    top: 140%;
+}
+
+#t26{
+    position: absolute;
+    width: 8%;
+    left: 46.5%;
+    top: 70%;
+}
+
+#t27{
+    position: absolute;
+    width: 30%;
+    left: 46.5%;
+    top: 160%;
+}
+
+#t28{
+    position: absolute;
+    width: 14.8%;
+    left: 30%;
+    top: 140%;
+}
+
+#t29{
+    position: absolute;
+    width: 10.6%;
+    left: 55.5%;
+    top: 70%;
+}
+
+#t30{
+    position: absolute;
+    width: 30%;
+    left: 15%;
+    top: 170%;
+}
+
+
+/* body{
+    margin: auto;
+    width: 1600px;
+}
+
+.container{
+    width: 100%;
+    margin: 0;
+    padding-top: 100px;
+}
+
+figure {
+    float: left;
+    margin: 0;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    overflow: hidden;
+}
+
+figure.item{
+    width: 400px;
+    height: 400px;
+}
+
+img{
+    display: block;
+    transition: all 0.5s ease;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+}
+
+img:hover{
+    transform: scale(110%);
+    filter: none;
+}
+ */
